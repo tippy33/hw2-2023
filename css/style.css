@@ -50,65 +50,71 @@ body div{
   padding-bottom: 20px;
 }
 
-.introduction{
+body .introduction{
   margin-top: 15px;
-  margin-bottom: 0px;
+  /* margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 0px; */
   border-radius: 15px;
   line-height: 2;
 }
 
-.red{
+body .red{
   background-color: #ff0000;
   margin-left: 50px;
   text-align: right;
-  border-bottom: 2px;
-  border-left: 5px;
+  border-top-width:0px;
+  border-right-width: 0px; 
+  border-bottom-width: 2px;
+  border-left-width: 5px;
   /* border-right: 0px;
   border-top: 0px; */
 }
 
-.blue{
+body .blue{
   background-color: #0000ff;
   text-align: left;
   margin-right: 50px;
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-top: 2px;
-  border-right: 5px;
+  border-top-width: 2px;
+  border-right-width: 5px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
   color: #C4C4C4;
 }
 
-.blue h2{
+body .blue h2{
   color: #C4C4C4;
 }
 
-.yellow{
+body .yellow{
   background-color: #ffff00;
   text-align: right;
   margin-left: 50px;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-bottom: 2px;
-  border-left: 5px;
-  /* border-top: 0px;
-  border-right: 0px; */
+  border-bottom-width: 2px;
+  border-left-width: 5px;
+  border-right-width: 0px;
+  border-top-width: 0px;
   color: #707070;
 }
 
-.yellow h2{
+body .yellow h2{
   color: #707070;
 }
 
-.green{
+body .green{
   background-color: #008500;
   text-align: left;
   margin-right: 50px;
-  border-right: 5px;
-  border-top: 2px;
+  border-right-width: 5px;
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
 }
 
 footer{
