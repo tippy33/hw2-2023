@@ -11,6 +11,10 @@ body{
 h1{
   font-size: 42px;
   text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 h2{
@@ -22,6 +26,8 @@ p{
   font-size: 24px;
   padding-top: 10px;
   padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
 }
 
 img{
@@ -46,6 +52,9 @@ body div{
 
 .introduction{
   margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   border-radius: 15px;
   line-height: 2;
 }
@@ -54,12 +63,19 @@ body div{
   background-color: #ff0000;
   margin-left: 50px;
   text-align: right;
+  border-bottom: 2px;
+  border-left: 5px;
+  /* border-right: 0px;
+  border-top: 0px; */
 }
 
 .blue{
   background-color: #0000ff;
   text-align: left;
   margin-right: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-top: 2px;
   border-right: 5px;
   color: #C4C4C4;
@@ -73,11 +89,17 @@ body div{
   background-color: #ffff00;
   text-align: right;
   margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-bottom: 2px;
   border-left: 5px;
+  /* border-top: 0px;
+  border-right: 0px; */
+  color: #707070;
 }
 
-.yellow p{
+.yellow h2{
   color: #707070;
 }
 
@@ -95,4 +117,13 @@ footer{
   border-color: #ffffff;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+}
+
+footer p{
+  font-size: 20px;
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
